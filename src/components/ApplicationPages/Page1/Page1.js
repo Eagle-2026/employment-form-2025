@@ -15,21 +15,6 @@ const Page1 = () => {
       [e.target.name]: e.target.value,
     });
   }
-  // const validate = () => {
-  //   const newError = {};
-  //   if (!formInfo.firstName || formInfo.firstName.trim() === "") {
-  //     newError.firstName = "First name is required";
-  //   }
-  //   if (!formInfo.lastName || formInfo.lastName.trim() === "") {
-  //     newError.lastName = "Last name is required";
-  //   }
-  //   if (!formInfo.email.includes("@") || !formInfo.email.includes(".")) {
-  //     newError.email = "Please enter a valid email";
-  //   }
-  //   setError(newError);
-  //   // Only return true if no errors
-  //   return Object.keys(newError).length === 0;
-  // };
 
   const validate = () => {
     const newError = {};
@@ -65,6 +50,7 @@ const Page1 = () => {
         {/* First Name */}
 
         <TextInput
+          label="First Name"
           name="firstName"
           value={formInfo.firstName}
           onChange={handleChange}
@@ -73,9 +59,8 @@ const Page1 = () => {
           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Last Name */}
-
         <TextInput
+          label="Last Name"
           name="lastName"
           value={formInfo.lastName}
           onChange={handleChange}
@@ -84,47 +69,43 @@ const Page1 = () => {
           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Email */}
-
         <TextInput
+          label="Email"
           name="email"
           value={formInfo.email}
           onChange={handleChange}
           placeholder="Email"
-          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
           error={error.email}
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Phone */}
-
         <TextInput
+          label="Phone Number"
           name="phone"
           value={formInfo.phone}
           onChange={handleChange}
           placeholder="Phone (10 digits)"
-          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
           error={error.phone}
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Gender */}
-
         <SelectInput
+          label="Gender"
           name="gender"
           value={formInfo.gender}
           onChange={handleChange}
-          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
           option={["Male", "Female"]}
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Nationality */}
-
         <TextInput
+          label="Nationality"
           name="nationality"
           value={formInfo.nationality}
           onChange={handleChange}
           placeholder="Nationality"
-          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
           error={error.nationality}
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
         {/* Next Button */}
