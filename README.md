@@ -2,18 +2,23 @@
 
 ## About the Project
 
-The **Employment Form 2025** is a modern, multi-step web application built with **React** and **Tailwind CSS** that allows users to fill out an employment application in a clean, responsive, and user-friendly interface.
+The Employment Form 2025 is a modern web app made with React and Tailwind CSS. It lets users fill out an employment application step by step with a clean and easy-to-use interface.
 
-This project demonstrates best practices in frontend development, including:
+This project shows my skills in frontend development, including:
 
-- **Multi-page navigation** with `react-router-dom`
-- **State management** using React Context API to manage form data across pages
-- **Persistent data storage** with `localStorage` so users can continue where they left off
-- **Reusable components** for consistent UI and easier maintenance
-- **Responsive design** using Tailwind CSS for mobile and desktop support
-- **Review and confirmation** pages to verify data before final submission
+Multi-page navigation using react-router-dom
 
-It’s an ideal **portfolio project** to showcase skills in React, component architecture, routing, state management, and frontend styling.
+Managing form data across pages with React Context API
+
+Saving data in localStorage so users can continue later
+
+Using reusable components for consistent design and easier updates
+
+Responsive design with Tailwind CSS for both mobile and desktop
+
+Pages to review and confirm data before submitting
+
+This project is perfect for showing my skills in React, component structure, routing, state management, and styling.
 
 ## Installation
 
