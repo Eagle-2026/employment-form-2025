@@ -50,67 +50,63 @@ const Page2 = () => {
         {/* Recent Job Title */}
 
         <TextInput
+          label="Recent Job Title"
           name="recentJobTitle"
           value={formInfo.recentJobTitle}
           onChange={handleChange}
           placeholder="Recent Job Title"
           error={error.recentJobTitle}
-           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Company Name */}
-
         <TextInput
+          label="Company Name"
           name="companyName"
           value={formInfo.companyName}
           onChange={handleChange}
           placeholder="Company Name"
           error={error.companyName}
-           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Employment Start */}
-
         <TextInput
+          label="Employment Start Date"
           name="employmentStart"
           value={formInfo.employmentStart}
           onChange={handleChange}
           placeholder="Employment Start"
           error={error.employmentStart}
-           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Employment End */}
-
         <TextInput
+          label="Employment End Date"
           name="employmentEnd"
           value={formInfo.employmentEnd}
           onChange={handleChange}
           placeholder="Employment End"
           error={error.employmentEnd}
-           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Reason for Leaving */}
-
         <TextInput
+          label="Reason for Leaving"
           name="reasonForLeaving"
           value={formInfo.reasonForLeaving}
           onChange={handleChange}
           placeholder="Reason for Leaving"
           error={error.reasonForLeaving}
-           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
-        {/* Previous Job Title */}
-
         <TextInput
+          label="Previous Job Title"
           name="previousJobTitle"
           value={formInfo.previousJobTitle}
           onChange={handleChange}
           placeholder="Previous Job Title"
           error={error.previousJobTitle}
-           className="w-full px-4 py-2 border-2 border-gray-400 rounded"
+          className="w-full px-4 py-2 border-2 border-gray-400 rounded"
         />
 
         <div className="flex justify-between">
