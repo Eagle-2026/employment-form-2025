@@ -1,4 +1,4 @@
-import "../../../tailwind.css";
+
 import { useNavigate } from "react-router-dom";
 import { useFormData } from "../../../context/FormContext";
 import { useState } from "react";

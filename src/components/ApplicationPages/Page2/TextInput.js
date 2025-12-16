@@ -1,4 +1,3 @@
-import "../../../tailwind.css";
 
 const TextInput = ({
   label,

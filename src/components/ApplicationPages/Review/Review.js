@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { useFormData } from "../../../context/FormContext";
 import { useNavigate } from "react-router-dom";
-import "../../../tailwind.css";
 
 const Review = () => {
   const { formInfo, setFormInfo } = useFormData();

@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import "../../../tailwind.css";
 
 const ReviewConfirmation = () => {
   const navigate = useNavigate();

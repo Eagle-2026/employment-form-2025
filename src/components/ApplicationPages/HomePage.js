@@ -1,5 +1,4 @@
 import { useNavigate, Link } from "react-router-dom";
-import "../../tailwind.css";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -16,7 +15,9 @@ const HomePage = () => {
         </p>
 
         <Link to="/page1">
-          <button>Start Application</button>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
+            Start Application
+          </button>
         </Link>
       </div>
     </div>

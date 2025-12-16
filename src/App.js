@@ -1,4 +1,3 @@
-import "./tailwind.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "./components/ApplicationPages/HomePage";
 import Page1 from "./components/ApplicationPages/Page1/Page1";

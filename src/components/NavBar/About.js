@@ -1,5 +1,5 @@
 
-import "../../tailwind.css";
+
 
 const About = () => {
   return (
